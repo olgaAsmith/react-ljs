@@ -1,9 +1,10 @@
+import { Layout } from './Layout/Layout';
 import { Restaurants } from './Restaurants/Restaurants';
 
 export const App = () => {
   return (
-    <main>
+    <Layout>
       <Restaurants />
-    </main>
+    </Layout>
   );
 };
